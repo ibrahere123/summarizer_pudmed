@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 models/fine_tuned_t5_document/model.safetensors filter=lfs diff=lfs merge=lfs -text
+models/fine_tuned_t5_section/model.safetensors filter=lfs diff=lfs merge=lfs -text
